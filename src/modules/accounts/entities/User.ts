@@ -22,6 +22,9 @@ export class User {
   is_admin: boolean;
 
   @Column()
+  avatar: string;
+
+  @Column()
   created_at: Date;
 
   constructor() {
